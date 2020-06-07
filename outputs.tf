@@ -15,3 +15,6 @@ output "public_subnet_ids" {
 output "mn_vpc_id" {
   value = data.aws_vpc.mn_default_vpc.id
 }
+output "accounts_pi" {
+  value = ["765948204630", "892618726120", "756281343804"]
+}
